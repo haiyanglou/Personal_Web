@@ -1,49 +1,89 @@
-h1 {
-    text-align: center;
-    font-size: 22pt;
-    font-weight: bold;
-    color: white;
-    background-color:grey;
-    padding-top: 20px;
-    padding-bottom: 20px;
+body {
+    background-image: url("bg.jpg");
+    color: rgb(200,200,200);
+    margin-top: 70px;
 }
+
+.navbar {
+      font-family: sans-serif, Arial;
+      margin-bottom: 0;
+      border: 0;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
 
 footer {
     text-align: center;
     font-size: 14pt;
-    font-weight: bold;
-    color: white;
-    background-color:black;
+    font-family: sans-serif, Arial;
+    color: rgb(100,100,100);
+    background-color: rgb(30,30,30);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-div.col-sm-8 {
-    border-left: thick solid black;
-    border-right: thick solid black;
-
+img  {
+    float: left;
+    margin-left: 5pt;
+    margin-right: 10pt;
 }
 
-div.btn-group {
-    background-color: black;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+.title1{
+    text-align: center;
+    font-family: verdana, sans-serif, Arial;
+    font-weight: bold; 
+    font-size: 24pt;
 }
 
-.p1 {
-    font-family: Helvetica, Times New Roman, Arial, sans-serif;
+.title2 {
+    font-family: sans-serif, Arial;
     font-size: 18pt;
 }
 
-.list {
-    font-size: 16pt;
+.p1 {
+    font-family: Helvetica, Arial;
+    font-size: 22pt;
+    text-align: center;
+}
 
+.p2 {
+    font-family: Helvetica, Arial;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.p3 {
+    font-family: Helvetica, Arial;
+    font-size: 14pt;
+    color: rgb(200,200,200);
+    text-align: center;
+}
+
+.list1 {
+    font-size: 18pt;
+    font-family: Arial;
+}
+
+a {
+    font-size: 15pt;
 }
 
 a:hover {
-    color: grey;
+    color: green;
     background-color: transparent;
     text-decoration: underline;
 }
 
+#contact {
+    font-family: Georgia, Arial;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.carousel {
+    width: 900px;
+    margin: auto;
+}
+.carousel .item {
+    height: 120px;
+}
