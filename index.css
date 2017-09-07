@@ -36,8 +36,16 @@ img  {
 }
 
 .title2 {
+    font-family: Arial;
+    font-size: 20pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.title3 {
     font-family: sans-serif, Arial;
-    font-size: 18pt;
+    font-size: 20pt;
+    text-decoration: underline;
 }
 
 .p1 {
@@ -61,6 +69,10 @@ img  {
 
 .list1 {
     font-size: 18pt;
+    font-family: Arial;
+}
+.list2 {
+    font-size: 16pt;
     font-family: Arial;
 }
 
