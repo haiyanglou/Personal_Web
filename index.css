@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg.jpg");
+    background-image: url("img/bg.jpg");
     color: rgb(200,200,200);
     margin-top: 70px;
 }
@@ -28,6 +28,10 @@ img  {
     margin-right: 10pt;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 .title1{
     text-align: center;
     font-family: verdana, sans-serif, Arial;
@@ -50,7 +54,7 @@ img  {
 
 .p1 {
     font-family: Helvetica, Arial;
-    font-size: 22pt;
+    font-size: 20pt;
     text-align: center;
 }
 
