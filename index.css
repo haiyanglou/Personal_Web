@@ -43,7 +43,8 @@ img  {
     font-family: Arial;
     font-size: 20pt;
     text-decoration: underline;
-    text-align: center;
+    letter-spacing: 2px;
+
 }
 
 .title3 {
@@ -54,14 +55,15 @@ img  {
 
 .p1 {
     font-family: Helvetica, Arial;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .p2 {
-    font-family: Helvetica, Arial;
-    font-size: 20pt;
-    text-align: center;
+    font-family: Arial;
+    font-size: 16pt;
+    letter-spacing: 2px;
 }
 
 .p3 {
