@@ -22,10 +22,15 @@ footer {
     padding-bottom: 10px;
 }
 
-img  {
+img {
     float: left;
     margin-left: 5pt;
     margin-right: 10pt;
+}
+
+hr {
+    background-color: #fff;
+    border-top: 2px dotted #8c8b8b;
 }
 
 .clearfix {
@@ -34,13 +39,15 @@ img  {
 
 .title1{
     text-align: center;
-    font-family: verdana, sans-serif, Arial;
+    font-family: Verdana, Arial;
     font-weight: bold; 
-    font-size: 24pt;
+    font-size: 26pt;
+    letter-spacing: 2px;
+
 }
 
 .title2 {
-    font-family: Arial;
+    font-family: Arial, Verdana;
     font-size: 20pt;
     text-decoration: underline;
     letter-spacing: 2px;
@@ -51,6 +58,12 @@ img  {
     font-family: sans-serif, Arial;
     font-size: 20pt;
     text-decoration: underline;
+}
+
+.title4 {
+    font-family: Palatino, Verdana;
+    font-size: 20pt;
+    letter-spacing: 2px;
 }
 
 .p1 {
@@ -75,9 +88,12 @@ img  {
 }
 
 .list1 {
-    font-size: 18pt;
-    font-family: Arial;
+    font-size: 16pt;
+    font-family: Verdana;
+    letter-spacing: 1px;
+
 }
+
 .list2 {
     font-size: 16pt;
     font-family: Arial;
@@ -94,8 +110,8 @@ a:hover {
 }
 
 #contact {
-    font-family: Georgia, Arial;
-    font-size: 16pt;
+    font-family: Verdana, Arial;
+    font-size: 18pt;
     text-align: center;
 }
 
