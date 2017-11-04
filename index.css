@@ -24,8 +24,16 @@ footer {
 
 img {
     float: left;
+}
+
+#profimg {
     margin-left: 5pt;
     margin-right: 10pt;
+}
+
+#project img {
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 hr {
@@ -55,15 +63,16 @@ hr {
 }
 
 .title3 {
-    font-family: sans-serif, Arial;
-    font-size: 20pt;
-    text-decoration: underline;
-}
-
-.title4 {
     font-family: Palatino, Verdana;
     font-size: 20pt;
     letter-spacing: 2px;
+}
+
+.title4 {
+    font-family: sans-serif, Arial;
+    font-size: 20pt;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .p1 {
@@ -82,21 +91,16 @@ hr {
 
 .p3 {
     font-family: Helvetica, Arial;
-    font-size: 14pt;
+    font-size: 16pt;
     color: rgb(200,200,200);
-    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .list1 {
     font-size: 16pt;
     font-family: Verdana;
     letter-spacing: 1px;
-
-}
-
-.list2 {
-    font-size: 16pt;
-    font-family: Arial;
 }
 
 a {
@@ -107,6 +111,10 @@ a:hover {
     color: green;
     background-color: transparent;
     text-decoration: underline;
+}
+
+#projects {
+    text-align: center;
 }
 
 #contact {

@@ -40,7 +40,7 @@
             <div class="col-sm-8">
                 <p id="home" class="title1">HEY! GLAD YOU'RE HERE.</p><br />
                 <div class="clearfix">
-                <img src="img/prof.jpg" class="img-rounded" alt="My Profi" height="auto" width="auto">
+                <img src="img/prof.jpg" id="profimg" class="img-rounded" alt="My Profi" height="auto" width="auto">
                 <p class="p1">
                 	<br />
                     <strong>LITTLE FACTS ABOUT ME...<br /><br />
@@ -92,7 +92,7 @@
 
                 <hr>
                 <p id="life" class="title1">MY LIFE</p>
-                <p class="title4"><strong><i class="fa fa-smile-o" aria-hidden="true"></i> MY LITTLE FACTS:</strong></p>
+                <p class="title3"><strong><i class="fa fa-smile-o" aria-hidden="true"></i> MY LITTLE FACTS:</strong></p>
                 <ul class="list1">
                     <li>I was born in Guiyang, China.</li>
                     <li>I lived in Guiyang, Dalian, Beijing, Stuttgart, and now I live in Dallas</li>
@@ -106,7 +106,7 @@
                     <br />
                 </ul>
 
-                <p class="title4"><strong><i class="fa fa-camera-retro" aria-hidden="true"></i> PHOTO ALBUM:</strong></p>
+                <p class="title3"><strong><i class="fa fa-camera-retro" aria-hidden="true"></i> PHOTO ALBUM:</strong></p>
             </div>
 
             <div class="col-sm-2">
@@ -150,55 +150,116 @@
 			<p class="p3">My Hometown Guiyang</p>
 			</div>
 			</div>
+
 		</div>
 	</div>
-	<br />
-
-    <hr>
-	<div class="container-fluid">
+	<br /><br />
+	
+	<hr>
+	<div id="project">
+        <p class = "title1">PROJECTS & PRODUCTS</p>
+	    <br />
 	    <div class="row">
-	        <div class="col-sm-2">
-	        </div>
-
-		    <div class="col-sm-8">
-		        <p id="project" class="title1">PROJECTS</p>
-		        <p class="title3">Zillow House Price Prediction (Python, Weka)<p>
-	            <ul class="list2">
-	                <li>Calculated Mean Absolute Error of 2.98 millions of houses cross U.S. from 2006 to 2016 with Python Spark</li>
-	                <li>Cleaned samples and extracted the effective data along with the 58 columns of raw data with Weka data distribution</li>
-	                <li>Optimized predication by replacing GBM with XGBoost algorithm model, then replaced XGBoost with LightGBM, the absolute error score was improved from 0.0652418 to 0.0646927</li>
-	            </ul>
-	            <br />
-
-		        <p class="title3">Transfer Market (HTML, MongoDB, Express.js, Angular, Node.js)<p>
-	            <ul class="list2">
-	                <li>Designed and Implemented a MEAN-Stack website to deal with transfers and search player/club information</li>
-	                <li>Implemented Ajax-based frontend with NPM modules and Angular 4 components</li>
-	                <li>Developed MVC backend with Node.js and access data on MongoDB, built MongoDB schemas with mongoose</li>
-	                <li>Allowed guest to access player details, manager to submit/receive transfer petition and admin to approve request</li>
-	            </ul>
-	            <br />
-
-		        <p class="title3">Library Management System (Java, MySQL)<p>
-	            <ul class="list2">
-	                <li>Designed and developed a library application that manages the books, borrowers, loan data and fines</li>
-		            <li>Developed Use Case Model and Diagrams, Class Diagrams, Sequence Diagrams using StarUML in design phase</li>
-	                <li>Implemented all CRUD functions and add-on functions like fine calculation, return reminder and availability check</li>
-	            </ul>
-        	    <br />
-
-		        <p class="title3">Word Puzzle Game (C#, Unity)<p>
-		        <ul class="list2">
-	                <li>Designed UI and logical judgement of game with different difficulty levels, unlock next level after passing current one</li>
-	                <li>Implemented Store function to let player accumulate points to purchase word hints or more time</li>
-	                <li>Built multi player mode by connecting with LAN and supported geomagic haptic device instead of mouse</li>
-		        </ul>
-	        </div>
-                
-	        <div class="col-sm-2">
+	    <div class="col-sm-4">
+	        <p class="title4">Zillow House Price Prediction</p>
+	        <a href="#demo1" data-toggle="collapse">
+	            <img src="img/project1.jpg" class="img-rounded" alt="pic1" width="90%" height="auto">
+	        </a>
+	        <div id="demo1" class="collapse">
+	            <p class="p3">
+	            1. Calculated Mean Absolute Error of 2.98 millions of houses cross U.S. from 2006 to 2016 with Python Spark<br /><br />
+		        2. Cleaned samples and extracted the effective data along with the 58 columns of raw data with Weka data distribution<br /><br />
+		        3. Optimized predication by replacing GBM with XGBoost algorithm model, then replaced XGBoost with LightGBM, the absolute error score was improved from 0.0652418 to 0.0646927<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        </p>
 	        </div>
 	    </div>
+
+	    <div class="col-sm-4">
+	        <p class="title4">Transfer Market</p>
+	        <a href="#demo2" data-toggle="collapse">
+	            <img src="img/project2.jpg" class="img-rounded" alt="pic2" width="90%" height="auto">
+	        </a>
+	        <div id="demo2" class="collapse">
+	            <p class="p3">
+            	1. Designed and Implemented a MEAN-Stack website to deal with transfers and search player/club information<br /><br />
+		        2. Implemented Ajax-based frontend with NPM modules and Angular 4 components<br /><br />
+		        3. Developed MVC backend with Node.js and access data on MongoDB, built MongoDB schemas with mongoose<br /><br />
+		        4. Allowed guest to access player details, manager to submit/receive transfer petition and admin to approve request<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        </p>
+	        </div>
+	    </div>
+
+	    <div class="col-sm-4">
+	        <p class="title4">Library Management System</p>
+	        <a href="#demo3" data-toggle="collapse">
+	            <img src="img/project3.jpg" class="img-rounded" alt="pic3" width="90%" height="auto">
+	        </a>
+	        <div id="demo3" class="collapse">
+		        <p class="p3">
+		        1. Designed and developed a library application that manages the books, borrowers, loan data and fines<br /><br />
+		        2. Developed Use Case Model and Diagrams, Class Diagrams, Sequence Diagrams using StarUML in design phase<br /><br />
+		        3. Built multi player mode by connecting with LAN and supported geomagic haptic device instead of mouse<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        </p>
+	        </div>
+	    </div>
+	    </div>
+	    <br /><br />
+
+        <div class="row">
+	    <div class="col-sm-4">
+	        <p class="title4">P4</p>
+	        <a href="#demo4" data-toggle="collapse">
+	            <img src="img/project4.jpg" class="img-rounded" alt="pic4" width="90%" height="auto">
+	        </a>
+	        <div id="demo4" class="collapse">
+	            <p class="p3">
+	            1. Calculated Mean Absolute Error of 2.98 millions of houses cross U.S. from 2006 to 2016 with Python Spark<br /><br />
+		        2. Cleaned samples and extracted the effective data along with the 58 columns of raw data with Weka data distribution<br /><br />
+		        3. Optimized predication by replacing GBM with XGBoost algorithm model, then replaced XGBoost with LightGBM, the absolute error score was improved from 0.0652418 to 0.0646927<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        </p>
+	        </div>
+	    </div>
+
+	    <div class="col-sm-4">
+	        <p class="title4">P5</p>
+	        <a href="#demo5" data-toggle="collapse">
+	            <img src="img/project5.jpg" class="img-rounded" alt="pic5" width="90%" height="auto">
+	        </a>
+	        <div id="demo5" class="collapse">
+	            <p class="p3">
+            	1. Designed and Implemented a MEAN-Stack website to deal with transfers and search player/club information<br /><br />
+		        2. Implemented Ajax-based frontend with NPM modules and Angular 4 components<br /><br />
+		        3. Developed MVC backend with Node.js and access data on MongoDB, built MongoDB schemas with mongoose<br /><br />
+		        4. Allowed guest to access player details, manager to submit/receive transfer petition and admin to approve request<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        </p>
+	        </div>
+	    </div>
+
+	    <div class="col-sm-4">
+	        <p class="title4">Keep working...</p>
+	        <a href="#demo6" data-toggle="collapse">
+	            <img src="img/project6.jpg" class="img-rounded" alt="pic6" width="90%" height="auto">
+	        </a>
+	        <div id="demo6" class="collapse">
+		        <p class="p3">
+		        <!--
+		        1. DD<br /><br />
+		        2. DD<br /><br />
+		        3. DD<br />
+		        <a href="https://www.linkedin.com/in/haiyang-lou" target="_blank"><button type="button" class="btn btn-primary btn-lg">GitHub Page</button></a>
+		        -->
+		        </p>
+	        </div>
+	    </div>
+	    </div>
+
 	</div>
+	<br /><br /><br />
 
     <hr>
     <div id="contact">
